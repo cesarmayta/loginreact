@@ -1,14 +1,14 @@
 import React from 'react'
-import login from './containers/login'
-import layout from './containers/layout'
+import Login from './containers/Login'
+import Layout from './containers/Layout'
 import './styles/global.css'
 
 const App = () => {
   return (
     <div>
-      <layout>
-        <login />
-      </layout>
+      <Layout>
+        <Login />
+      </Layout>
     </div>
   )
 }
